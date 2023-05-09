@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;/*margem*/
+    padding: 0;/*margem dentro da margem /*distância entre conteudos e bordas*/
+    box-sizing: border-box;/*varia a localização do elemento*/
+    font-family: 'Open Sans', sans-serif;/* determinei padrão da fonte textil em todo site*/
+}
+
+
+
+
+body{ /*corpo*/
+    
+    display: flex;  /*habilita align items*/
+    justify-content: center;/*justifica ao centro*/
+    align-items: center; /* center complementa alinhamento ao cetro*/
+    height: 100vh;/*alinhando autura pra centralizar-vh*/
+    width:100vw;/*alinhamento de largura -vw*/
+
+    
+    background-image: url("https://source.unsplash.com/1600x900");/* imagem + variavel de site url*/
+}
+
+
+
+
+
+
+.caixa-maior{/*caixa dentro do corpo*/
+    background-color:#000000 ;/*trocar cor do fundo*/
+    width: 95%; /*largura adptativa ao tamanho da tela*/
+    max-width: 420px; /*largura em pixels adptativo ao tamanho da lela*/
+    opacity: 08;/*grau de transparencia do elemento*/
+    padding: 20px; /*distância entre conteudos e bordas*/
+    border-radius: 25px;/*arredondando bordas*/
+}
+
+input{
+    border: none;/*borda do elemento*/
+    outline: none;/*borda enterna azulada*/
+    padding: 10px;/*alargando input/*distância entre conteudos e bordas*/
+    border-radius: 24px;/*arredondando bordas*/
+    font-size: 20px;/*tamanho da letra*/
+    background-color: #7c7c7c2b;/*altera cor do plano de fundo*/
+    cursor: pointer;/* variar ponteiro quando estiver sobre o elemento */
+    color: white;/*cor*/
+    width: calc(100%-100px);/*caucular largura */
+}
+
+button{
+    border: none;/*anulção de bordas*/
+    outline: none;/*anulação do contorno*/
+    padding: 10px;/*distância entre conteudos e bordas*/
+    border-radius: 50px;/*bordas arredondadas*/
+    background-color: #7c7c7c2b;/*altera cor do plano de fundo*/
+    float: right;/* A propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo*/
+    cursor: pointer;/* variar ponteiro quando estiver sobre o elemento */
+  
+    
+}
+button:hover{
+    background-color: #7c7c7c6b;/*altera cor do plano de fundo*/
+}
+
+.caixa-media{
+    margin-top: 30px;/* margin-top x margim-bottom*/
+
+}
+.caixa-menor{
+    display: flex;
+    margin-top: 30px;/* margin-top x margim-bottom*/
+    align-items: center;
+    
+}
+
+
+.lupa{
+    height: 20px;/*altura ajustavel*/
+}
+
+
+.cidade{
+    color:white;/*cor*/
+    font-size: 30px;
+}
+.temp{
+    color:white;/*cor*/
+    margin-top: 30px;/* margin-top x margim-bottom*/
+}
+.descricao{
+    color:white;/*cor*/
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.variacao{
+    color:white;/*cor*/
+    margin-top: 30px;/* margin-top x margim-bottom*/
+}
+
+
